@@ -15,7 +15,7 @@ inline void Swap(int &x, int &y)
 }
 void SelectionSort::SelectionSorter(int arr[], int arr_size)
 {
-    cout <<"SelectionSort :"<<endl;
+    cout <<"SelectionSort--->:"<<endl;
     for(int index = 0; index < arr_size - 1; ++index)
     {
         int min = index;
